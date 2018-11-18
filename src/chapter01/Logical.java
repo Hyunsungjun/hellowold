@@ -1,8 +1,8 @@
-package chapter01;
-
-public class Logical {
-
-	public static void main(String[] args) {
+//package chapter01;
+//
+//public class Logical {
+//
+//	public static void main(String[] args) {
 //		int a = 7;
 //		int b = 3;
 //		
@@ -30,7 +30,26 @@ public class Logical {
 //		}else {
 //			System.out.println("a3이 최대");
 //		}
+//	}
+//}
+//
+//
+package chapter01;
+
+public class Logical {
+
+	public static void main(String[] args) {
+		int a = 7;
+		int b = 3;
+		
+		System.out.println( a == b || a > b);
+		System.out.println( a == b && a > b);
+		
+		System.out.println( a != b || a > b);
+		System.out.println( a != b && a > b);
+		
+		System.out.println( !(a > b));
+		
 	}
+
 }
-
-
